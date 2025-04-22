@@ -5,7 +5,7 @@ A list of JIT Enablers for iOS and iPadOS.
 
  | Supported OS Versions | JIT Enabler | OS for JIT Enabler | Supported SoC architecture | Recommended |
  |---------|---------|--------|-------|-------|
- | 18.4b1 (22E5200s) | [JankJIT](https://gist.github.com/JJTech0130/142aee0f7bda9c61a421140d17afbdeb) | Likely MacOS-only | arm64🤷‍♂️,arm64e✅ | 🤷‍♂
+ | 18.4b1 (22E5200s) | [JankJIT](https://gist.github.com/JJTech0130/142aee0f7bda9c61a421140d17afbdeb) | MacOS/Windows/Linux (Using pymd3) | arm64✅,arm64e✅ | ❌ (Requires manually re-mapping every JIT compiled code to R/X)
  | 17.4 - 18.3.2 / 18.4b2 - 18.5 | [StikDebug/StikJIT](https://github.com/StephenDev0/StikJIT) | iOS/iPadOS | arm64✅,arm64e✅ |  ✅ (recommended to use with SideStore)
  | 17.4 - 18.3.2 / 18.4b2 - 18.5 | [Guide](https://sidestore.io) + [SideStore "Nightly" build (required!)](https://github.com/SideStore/SideStore/releases/tag/nightly) | iOS/iPadOS | arm64✅,arm64e✅ | ✅ (Recommended to use with StikDebug)
  | 17.4 - 18.3.2 / 18.4b2 - 18.5 | [JITStreamer-EB](https://github.com/jkcoxson/JitStreamer-EB) | iOS/iPadOS | arm64🤷‍♂️,arm64e✅ | ❌
