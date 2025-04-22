@@ -3,7 +3,7 @@ A list of JIT Enablers for iOS and iPadOS.
 
 **arm64 = A7-A11 | arm64e = A12+/M1+**
 
- | Supported OS Versions | JIT Enabler | OS for JIT Enabler | Supported iDevice architecture | Recommended |
+ | Supported OS Versions | JIT Enabler | OS for JIT Enabler | Supported SoC architecture | Recommended |
  |---------|---------|--------|-------|-------|
  | 18.4b1 (22E5200s) | [JankJIT](https://gist.github.com/JJTech0130/142aee0f7bda9c61a421140d17afbdeb) | Likely MacOS-only | arm64🤷‍♂️,arm64e✅ | 🤷‍♂
  | 17.4 - 18.3.2 / 18.4b2 - 18.5 | [StikDebug/StikJIT](https://github.com/StephenDev0/StikJIT) | iOS/iPadOS | arm64✅,arm64e✅ |  ✅
