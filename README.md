@@ -24,3 +24,8 @@ A list of JIT Enablers for iOS and iPadOS.
  | 12.0 - 16.5(.1)/16.6b1-b4 | [Jailbreak (Not all Jailbreaks support JIT enabling)](https://ios.cfw.guide/get-started/) | iOS/iPadOS | arm64✅,arm64e✅ | ✅
  |↪️ 16.6 - 18.3.2 | [Jailbreak](https://ios.cfw.guide/get-started/) + [TrollStore Lite (search for it in Sileo/Zebra once jailbroken)](https://havoc.app/package/trollstorelite?srsltid=AfmBOorVtTrW_VvOq42bb8zsG4CeTtGi3VmoEmaAnFgiTEnWqeqfdLZs) | iOS/iPadOS | arm64✅,arm64e❌ |✅ (you can use normal TrollStore instead if you are on 14.0b2 - 16.7RC/17.0b1 - 17.0 if you dont want to jailbreak for some reason)
 | ??? - ??? | [PyMobileDevice3](https://github.com/doronz88/pymobiledevice3) | MacOS | arm64🤷‍♂️,arm64e🤷‍♂️ | ❌
+
+# What is "JIT" ?
+JIT means "Just-In-Time Compilation", it makes emulators (which support JIT) run better or has other use cases in tools such as [LiveContainer](https://github.com/LiveContainer/LiveContainer) to launch iOS apps faster (by not having to sign them first with SideStore) which are installed into it. 
+
+Read more [here](https://en.wikipedia.org/wiki/Just-in-time_compilation)
